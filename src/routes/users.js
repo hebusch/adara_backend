@@ -69,7 +69,9 @@ router.post('/', async (req, res) => {
         res.status(201).json({
             status: 201,
             message: 'User created',
-            data: user
+            data: {
+                mail: user.email
+            }
         });
     } catch (error) {   
         res.status(500).json({
