@@ -7,7 +7,7 @@ API desarrollada para el proceso de postulación de Adara.
 ```json
 {
     "language": "Node.js",
-    "framework": "Express",
+    "framework": "Express.js",
     "packageManager": "npm"
 }
 ```
