@@ -18,7 +18,6 @@ const genderIsValid = (gender) => {
     return /^(male|female)$/.test(gender)
 }
 
-//validate date is in postgresql format (YYYY-MM-DD)
 const birthdayIsValid = (birthday) => {
     return /^\d{4}-\d{2}-\d{2}$/.test(birthday)
 }
