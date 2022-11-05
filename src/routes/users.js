@@ -18,7 +18,7 @@ router.get('/:email', async (req, res) => {
         }
         const user = await User.findOne({
             where: {
-                email: req.params.email
+                email: email
             }
         });
         if(!user) {
@@ -36,7 +36,7 @@ router.get('/:email', async (req, res) => {
     } catch (error) {
         res.status(500).json({
             status: 500,
-            message: error,
+            message: 'Internal server error',
             data: {}
         });
     }
