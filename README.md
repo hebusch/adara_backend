@@ -63,3 +63,11 @@ Si se realizaron todos los pasos previos de manera correcta, podemos iniciar la 
 ```bash
 $ npm start
 ```
+
+## Tests :clipboard:
+
+Para correr los tests correr el siguiente comando:
+
+```bash
+$ npm test
+```

@@ -15,7 +15,7 @@ const lastNameIsValid = (lastName) => {
 }
 
 const genderIsValid = (gender) => {
-    return /^(male|female)$/.test(gender)
+    return /^(male|female|other)$/.test(gender)
 }
 
 const birthdayIsValid = (birthday) => {
